@@ -1,0 +1,14 @@
+model:
+  learning_rate: 2e-5
+  batch_size: 64
+  epochs: 8
+  dropout_rate: 0.2
+
+data:
+  raw_path: "/kaggle/input/news-sentiment-analysis/news.csv"
+  processed_path: "data/processed/processed_data.csv"
+  max_seq_length: 128
+
+paths:
+  model_save_path: "models/saved_models/multi_task_bert_model.h5"
+  log_dir: "logs/"
