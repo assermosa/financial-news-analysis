@@ -134,24 +134,6 @@ Analyze a news article for sentiment and importance.
 
 ---
 
-## 📁 Project Structure
-
-```
-financial-news-analysis/
-├── app.py                  # Flask API server
-├── train.py                # Training script
-├── model/
-│   ├── bert_multitask.py   # Multi-task BERT model definition
-│   └── utils.py            # Preprocessing & helpers
-├── data/
-│   └── financial_news.csv  # Training dataset
-├── experiments/            # MLflow experiment logs
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## 📊 Results
 
 > Best checkpoint restored at **Epoch 2** via Early Stopping (patience=3).
